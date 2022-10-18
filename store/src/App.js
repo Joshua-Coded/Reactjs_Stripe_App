@@ -6,11 +6,13 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Cancel from './pages/Cancel';
 import Success from './pages/Success';
 import Store from './pages/Store';
+import CartProvider from './CartContext';
 
 
 
 function App() {
   return (
+    <CartProvider>
     <Container>
       <NavBarComponent />
       <BrowserRouter>
@@ -22,7 +24,7 @@ function App() {
         
         </BrowserRouter>
     </Container>
-    
+    </CartProvider>    
   );
 }
 
