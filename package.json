@@ -1,0 +1,26 @@
+{
+  "name": "react_stripe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshbam-joshwilly/Reactjs_Stripe_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshbam-joshwilly/Reactjs_Stripe_App/issues"
+  },
+  "homepage": "https://github.com/Joshbam-joshwilly/Reactjs_Stripe_App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "stripe": "^10.14.0"
+  }
+}
